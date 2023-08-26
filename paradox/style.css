@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.image1{
+    background-image: url(bg1.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.image2{
+    background-image: url(bg2.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.image3{
+    background-image: url(bg3.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.text{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.text span{
+    padding: 20px;
+    background: #313534;
+    font-size: 40px;
+    color: white;
+}
+
+.section1 {
+    text-align: center;
+    color: #313534;
+    margin: 10px 0;
+}
+.section2{
+    text-align: center;
+    color: white;
+    background: #313534;
+    padding: 20px 0;
+}
+.section1 h1 ,.section2 h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.section1 p, .section2 p{ 
+    margin-bottom: 30px;
+    padding: 0 200px;
+    text-align: center;
+}
+.text2{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2 span{
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.274);
+    font-size: 40px;
+    color: white;
+    /* font-weight: 500; */
+}

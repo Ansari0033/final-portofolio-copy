@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    /* border: 3px solid black; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.second-part{
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+}
+.second-part h3{
+    color: #4A5568;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 20px;
+}
+.second-part i{
+    font-size: 22px;
+    margin: 0 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 4px solid black; */
+    padding: 50px 0;
+    /* gap: 30px; */
+}
+.para{
+    /* width: 324px; */
+    padding: 0 70px;
+}
+.para h1{
+font-size: 60px;
+font-weight: 700;
+}
+.para p{
+font-size: 24px;
+font-weight: 400;
+color: #4A5568;
+}
+.menu-second{
+    display: flex;
+    margin:50px 0px;
+}
+.menu-second p{
+    font-size: 17px;
+    font-weight: 300;
+}
+.para-second{
+    border: 1px solid #4A5568;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    /* box-shadow: 1px 1px 1px o.4; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding:0 70px;
+}
+.para-second h2{
+    font-size: 30px;
+}
+.read-more{
+    display: flex;
+    justify-content: space-between;
+}
+.img2 img{
+    /* width: 100%; */
+    height: 100%;
+}
+.third-menu{
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid black; */
+    gap: 50px;
+    margin: 50px 0;
+}
+.box{
+    border: 1px  solid #4A5568;
+    border-radius: 5px;
+
+}
+.third-menu img{
+    width: 100%; 
+    height: 100%; 
+    border-radius: 5px;
+
+}
+
+.third-text{
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px ;
+    /* box-shadow: 1px 1px 8px #4A5568 ; */
+}
+.third-menu p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #4A5568;
+}
+.fourth-section{
+    display: flex;
+    /* line-height: 48px; */
+    align-items: center;
+    margin: 50px 0;
+}
+.fourth-text{
+    padding:0 100px;
+}
+.fourth-text h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.fourth-text p{
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.fourth-pic img{
+    height: 100%;
+    /* width: 100%; */
+}
+
+.btn{
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 ;
+}
+.btn button{
+    align-self: flex-end;
+    padding: 8px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    background: #6B46C1;
+    color: white;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer1 h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer2 i{
+    margin: 0 10px;
+    font-size: 25px;
+    color: #454444;
+}
+
+.blog1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 3px solid black; */
+    margin: 30px 0;
+}
+.blog1 h2{
+    font-size: 45px;
+    color: #2D3748;
+    line-height: 80px;
+}
+.blog-p{
+    display: flex;
+    align-items: center;
+}
+.blog-p h3{
+    color: #2D3748;
+    padding-right:20px ;
+}
+.blog-p p{
+    color: #718096;
+    /* font-weight: 400; */
+}
+.container2{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.img-div img{
+    width: 100%;
+    height: 100%;
+    /* border: 3px solid black; */
+    
+}
+.blog2 p{
+    /* font-size: 20px; */
+    word-spacing: 10px;
+    color: #718096;
+    line-height: 20px;
+}
+.blog2 i{
+    color: #2D3748;
+    font-weight: 600;
+}
+
+
+
+/* media */
+
+@media (max-width:786px) {
+    .container,.container2{
+        max-width: 100%s;
+        margin: 0;
+    }
+    nav{
+    padding: 10px;
+    }
+    .first-part{
+        font-size: 15px;
+    }
+    .second-part h3{
+        color: #4A5568;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0 10px;
+    }
+    .second-part i{
+        font-size: 18px;
+        margin: 0 5px;
+    }
+    .menu{
+        flex-direction: column;
+    }
+}
