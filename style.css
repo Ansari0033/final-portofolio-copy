@@ -7,7 +7,9 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-
+a{
+    text-decoration: none;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -116,12 +118,14 @@ footer{
 }
 .grid-items{
 display: flex;    
-gap: 20px;
+/* gap: 20px; */
 flex-wrap: wrap;
 justify-content: center;
 padding-bottom: 50px;
+
 }
 .grid{
+    margin:20px;
     display: flex;
     flex-direction: column;
     /* border: 2px solid black; */
