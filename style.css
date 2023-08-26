@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px;
+    color: white; ;
+    background-color: #0089B7;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    align-items: center;
+    background: #003D62;
+    color: white;
+}
+
+.name h1{
+    font-size: 50px;
+}
+.name h2{
+    font-size: 50px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */ /* Adjust as needed */
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+
+
+.hi{
+    color: #FDFF9E;
+}
+.i-am{
+    font-size: 30px;
+}
+.contact-section{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 80px 120px;
+    color: white;
+    background: #003D62;
+}
+.contact-section h1{
+    font-size: 40px;
+}
+.first-logos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.first-logo{
+    gap: 10px;
+    align-items: center;
+    display: flex;
+}
+.first-logo i{
+    font-size: 25px;
+}
+footer{
+    background-color: #012941;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 700;
+}
+.main2{
+    /* border: 2px solid black; */
+    background: #003251;
+}
+.main2 h2{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    /* border: 2px solid black; */
+
+}
+.grid-items{
+display: flex;    
+gap: 20px;
+flex-wrap: wrap;
+justify-content: center;
+padding-bottom: 50px;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+.grid:hover .grid-text{
+    background-color: white;
+    color: #003251;
+    transform: translateY(0px);
+}
+.grid-text{
+    position: relative;
+    top: -3rem;
+    margin-bottom: -3rem;
+    transition: 0.3s ease-in-out;
+    transform: translateY(100px);
+}
+.grid h3{
+    /* background: #003251; */
+    /* color: white; */
+    text-align: center;
+    font-size: 30px;
+}
+.grid:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+
+.grid img{
+    transition: 0.3s ease-in-out;
+}
+.grid:hover img{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+@media (max-width:786px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        color: white; ;
+        background-color: #0089B7;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0 10px;
+    }
+    .main-section{
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        gap: 20px;
+        align-items: center;
+        background: #003D62;
+        color: white;
+    }
+    .main-img{
+        /* border: 3px solid black; */
+        height: 100%;
+        width: 100%;
+    }
+    .main-img img{
+        /* border: 3px solid black; */
+        height: 100%;
+        width: 100%;
+    }
+    .name h1 ,.name h2{
+        font-size: 30px;
+    }
+    .i-am{
+        font-size: 20px;
+    }
+    .contact-section{
+    align-items: self-start;
+    gap: 5px;
+    padding: 5px;
+}
+.contact-section h1{
+    font-size: 20px;
+}
+.contact-section h2{
+    font-size: 15px;
+}
+.first-logos{
+    display: block;
+}
+.first-logo i{
+    font-size: 20px;
+}
+footer{
+    padding: 15px 0;
+}
+.grid-text{
+    position: relative;
+    top: -3rem;
+    margin-bottom: -3rem;
+    transition: 0.3s ease-in-out;
+    background-color: white;
+    color: #003251;
+    transform: translateY(0px);
+}
+}
